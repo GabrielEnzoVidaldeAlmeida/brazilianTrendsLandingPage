@@ -1,12 +1,65 @@
+/*FONTES*/
+@import url('https://fonts.cdnfonts.com/css/quilin');
+@font-face {
+  font-family: 'Postre';
+  src: url('/demo-postre.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*CABECALHO*/
 .cabecalho{
     background-color:#FFFDF0;
     display: flex;
     flex-direction: row;
 }
 .cabecalho h1{
+    width: 256px;
+    height: 29px;
+    top: 41px;
+    left: 160px;
+    padding-left: 200px;
+    padding-top: 20px;
+
     color:#BE2233;
+    font-weight: 400;
+    size: 36px;
+    line-height: 28.8px;
+    font-family: 'Quilin', sans-serif;
+}
+.barra-pesquisa{
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
 .barra-pesquisa #texto-busca{
+    width: 496px;
+    height: 44px;
+    top: 34px;
+    left: 392px;
+    margin-top: 30px;
+
     background-color:#F4D9D2;
     border-radius: 5px;
+    border-style: none;
 }
+.barra-pesquisa input::placeholder{
+
+    font-family: 'Quilin', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 19.2px;
+    color: #CC876A;
+}
+.barra-pesquisa button{
+    display: flex;
+    position: absolute;
+    margin-left: 465px;
+    margin-top: -31px;
+
+    border-style: none;
+    background-color: transparent;
+}
+.barra-pesquisa button:hover{
+    cursor:pointer;
+}
+
