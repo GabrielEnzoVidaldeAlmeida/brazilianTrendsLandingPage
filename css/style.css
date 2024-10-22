@@ -11,6 +11,8 @@
     background-color:#FFFDF0;
     display: flex;
     flex-direction: row;
+    padding-bottom: 60px;
+    
 }
 .cabecalho h1{
     width: 256px;
@@ -59,10 +61,80 @@
     border-style: none;
     background-color: transparent;
 }
-.barra-pesquisa button:hover{
+button:hover{
     cursor:pointer;
 }
 .login{
+    margin-left: 30px;
+    list-style: none;
+}
+.login img{
+    margin-top: 38px;
+    border-style: none;
+    background-color: transparent;
+    margin-top: 43px;
+}
+.btn-login a{
+    text-decoration: none;
+}
+.btn-login{
+    display: block;
+    margin-top: -43px;
+    margin-left: -18px;
+    font-family: 'Quilin', sans-serif;
+}
+#btn-login-1 a{
+    color: #346D9E;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.73px;
+}
+#btn-login-2{
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.73px;
+}
+.carrinho{
+    display: inline;
+    margin-top: 20px;
+}
+.carrinho img{
+    width: 30px;
+    height: 30px;
+}
+.carrinho a button{
+    background: transparent;
+
+    margin-left: 20px;
+    margin-top: 15px;
+    border-style: none;
+}
+#border-count{
+    width: 13px;
+    height: 13px;
+    margin-left: 80px;
+    margin-top: -42px;
+    background-color: #CC876A;
+    border: 15px solid #CC876A;
+    border-radius: 50%;
+}
+.carrinho p{
+    margin-left: 94px;
+    margin-top: -31px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 17.84px;
+    color: #FFFDF0;
     
 }
 
+#linha{
+    position: absolute;
+    width: 1130px;
+    margin-top: 120px;
+    border-bottom: 1px solid #F4D9D2;
+    margin-left: 150px;
+}
