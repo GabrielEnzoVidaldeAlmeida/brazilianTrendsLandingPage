@@ -6,12 +6,18 @@
   font-weight: normal;
   font-style: normal;
 }
+body{
+    margin: 15px;
+    margin-left: 10px;
+    width: 1460px;
+}
+
 /*CABECALHO*/
 .cabecalho{
     background-color:#FFFDF0;
     display: flex;
     flex-direction: row;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     
 }
 .cabecalho h1{
@@ -137,4 +143,38 @@ button:hover{
     margin-top: 120px;
     border-bottom: 1px solid #F4D9D2;
     margin-left: 150px;
+}
+
+/*NAVBAR*/
+
+.navbar li{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+    margin-left: -1060px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: #346D9E;
+
+    font-family: 'Quilin', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 19.2px;
+}
+/*MAIN - CORPO DO SITE*/
+.carrossel-brazilian-trends img{
+    width: 1460px;
+}
+.lancamentos{
+    text-align: center;
+    color: #CC876A;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40.14px;
+
+    margin-top: -80px;
 }
