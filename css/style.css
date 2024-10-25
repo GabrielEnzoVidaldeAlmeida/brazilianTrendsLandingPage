@@ -7,9 +7,9 @@
   font-style: normal;
 }
 body{
-    margin: 15px;
-    margin-left: 10px;
-    width: 1460px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /*CABECALHO*/
@@ -166,7 +166,9 @@ button:hover{
 }
 /*MAIN - CORPO DO SITE*/
 .carrossel-brazilian-trends img{
-    width: 1460px;
+    width: 100.25%;
+    margin-top: -3px;
+    margin-left: -4px;
 }
 .lancamentos{
     text-align: center;
@@ -177,4 +179,27 @@ button:hover{
     line-height: 40.14px;
 
     margin-top: -80px;
+}
+
+.flex-cards{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    max-width: 1200px;
+    margin-left: 140px;
+}
+
+.card{
+    margin: 10px;
+    background-color: #FFFFFF;
+    width: 243px;
+    height: 387px;
+    border-radius: 5px;
+    border: 2px solid #DEDEDE;
+}
+
+.card > img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
