@@ -2,7 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/quilin');
 @font-face {
   font-family: 'Postre';
-  src: url('/demo-postre.otf') format('opentype');
+  src: url('public/demo-postre.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -173,7 +173,7 @@ button:hover{
 .lancamentos{
     text-align: center;
     color: #CC876A;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Postre';
     font-weight: 400;
     font-size: 36px;
     line-height: 40.14px;
@@ -196,10 +196,55 @@ button:hover{
     height: 387px;
     border-radius: 5px;
     border: 2px solid #DEDEDE;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.76px;
+
+    text-align: left;
+}
+.card > h2{
+    margin-left: 10px;
+}
+
+.card > h3{
+    margin-left: 10px;
+    margin-top: -15px;
+    color: #346D9E;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16.73px;
+}
+
+.card > p{
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    color: #346D9E;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16.73px;
+    
 }
 
 .card > img{
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.card label{
+    position: absolute;
+    background-color: #346D9E;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 225px;
+    margin-left: -160px;
 }
